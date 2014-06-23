@@ -3,6 +3,10 @@
 #### Getting and Cleaning Data: Data Analysis Specialisation
 
 
+## Important note regarding evaluation
+
+Regarding the question "Creates a second, independent tidy data set with the average of each variable for each activity and each subject.", I have assumed that the question calls for finding the average for each COMBINATION of activity and subject. ie. The tidy data set submitted above has 180 rows (30 subjects * 6 activities per subject). There are 2 interpretations of the question :one which summarises by activity (6 rows) and subjects (30 rows) and the second one is the way I have submitted (180 rows).This thread in the [forums](https://class.coursera.org/getdata-004/forum/thread?thread_id=420) is related to this issue. Please keep this in mind while evaluating my project. Thanks :)
+
 ### Introduction
 The script run_analysis.R does the following:
 0. Download and unzip the data from the given link. This takes care of the director requirement.
